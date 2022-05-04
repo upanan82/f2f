@@ -1,0 +1,35 @@
+const ROOM_FLOW_JOIN = 'join';
+const ROOM_FLOW_CREATE = 'create';
+
+const SOCKET_HUB_CONNECTION = 'connection';
+const SOCKET_HUB_ROOM = 'room';
+const SOCKET_HUB_ROOM_STATUS = 'room status';
+const SOCKET_HUB_USER = 'user';
+const SOCKET_HUB_USER_STATUS = 'user status';
+const SOCKET_HUB_GET_USERS = 'get users';
+
+const SOCKET_HUB_MESSAGE = 'message';
+const SOCKET_HUB_TYPING = 'typing';
+const SOCKET_HUB_DISCONNECT = 'disconnect';
+
+const ERROR_MESSAGE_ROOM_NOT_FOUND = 'Chosen room does not exist.';
+const ERROR_MESSAGE_INVALID_ROOM_FLOW = 'Chosen room does not exist.';
+
+const GUID_PREFIX_MESSAGE = 'msg-';
+
+module.exports = {
+  ROOM_FLOW_CREATE,
+  ROOM_FLOW_JOIN,
+  SOCKET_HUB_CONNECTION,
+  SOCKET_HUB_ROOM,
+  SOCKET_HUB_ROOM_STATUS,
+  SOCKET_HUB_USER,
+  SOCKET_HUB_USER_STATUS,
+  SOCKET_HUB_GET_USERS,
+  SOCKET_HUB_MESSAGE,
+  SOCKET_HUB_TYPING,
+  SOCKET_HUB_DISCONNECT,
+  ERROR_MESSAGE_ROOM_NOT_FOUND,
+  ERROR_MESSAGE_INVALID_ROOM_FLOW,
+  GUID_PREFIX_MESSAGE,
+};
